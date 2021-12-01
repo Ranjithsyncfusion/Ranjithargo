@@ -18,7 +18,7 @@ spec:
  - ReadWriteMany
  storageClassName: bold-storageclass
  hostPath:
-   path: "/run/desktop/mnt/host/<local_directory>"
+   path: "/run/desktop/mnt/host/d/app/shared"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
