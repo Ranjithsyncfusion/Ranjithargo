@@ -5,8 +5,8 @@ metadata:
   namespace: bold-services
 type: Opaque
 data:
-  azurestorageaccountname: <base64_azurestorageaccountname>
-  azurestorageaccountkey: <base64_azurestorageaccountkey>
+  azurestorageaccountname: dGVycmFmb3Jtc3RvcmFnZWF6dXJl
+  azurestorageaccountkey: OGZzVldrOE1xVHVOZHZSb3VYdzhHakJ2T2lUMDI2NVBJTTFyVFhzRjZpVGw2dkczTVF3VEE3U0tTNElnZnF2NmxyS01YQUdEb01DUkpnUGRpZTNPY3c9PQ==
 ---
 apiVersion: v1
 kind: PersistentVolume
@@ -22,7 +22,7 @@ spec:
  storageClassName: azurefile
  azureFile:
    secretName: bold-azure-secret
-   shareName: <file_share_name>
+   shareName: sharename
    readOnly: false
 ---
 apiVersion: v1
