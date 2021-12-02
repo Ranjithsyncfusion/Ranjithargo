@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: bold-azure-secret
-  namespace: bold-services
+  namespace: bold-services1
 type: Opaque
 data:
   azurestorageaccountname: dGVycmFmb3Jtc3RvcmFnZWF6dXJl
@@ -12,7 +12,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
  name: bold-fileserver
- namespace: bold-services
+ namespace: bold-services1
 spec:
  capacity:
    storage: 3Gi
@@ -22,14 +22,14 @@ spec:
  storageClassName: azurefile
  azureFile:
    secretName: bold-azure-secret
-   shareName: sharename
+   shareName: sharename1
    readOnly: false
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
  name: bold-fileserver-claim
- namespace: bold-services
+ namespace: bold-services1
 spec:
  accessModes:
  - ReadWriteMany
