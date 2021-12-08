@@ -6,7 +6,7 @@ metadata:
 type: Opaque
 data:
   azurestorageaccountname: dGVycmFmb3Jtc3RvcmFnZWF6dXJl
-  azurestorageaccountkey: OGZzVldrOE1xVHVOZHZSb3VYdzhHakJ2T2lUMDI2NVBJTTFyVFhzRjZpVGw2dkczTVF3VEE3U0tTNElnZnF2NmxyS01YQUdEb01DUkpnUGRpZTNPY3c9PQ==
+  azurestorageaccountkey: cTFUcHpGWkUxU2I0dlJUYUd2Q2VQS29yeWFVVjFGamlIc1BoR0NtUWswWWZtZStoSXhyais5bXFrUkZmTTZ5Wmw0Q05vS1BKN2Q3WW1UL2lPdVpJNWc9PQ==
 ---
 apiVersion: v1
 kind: PersistentVolume
